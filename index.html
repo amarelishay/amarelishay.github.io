@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <!-- Icon Support -->
+    <link rel="icon" href="https://64.media.tumblr.com/d0df97346b89340700265569fd6777a2/tumblr_muxysn6fhE1spsp70o1_400.png" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- JS -->
+
+</head>
+
+<body>
+ <all>   
+    <header>
+    <h1>Bob-burger</h1>
+</header>
+
+    <buttons>
+    <button onclick="add('tomato')" class="plus">+</button>
+    <span class="addontext"id="tomato">tomato </span >
+    <button onclick="remove('tomato')" class="minus">-</button>
+    <br>
+    <br>
+    <button onclick="add('salad')" class="plus">+</button>
+    <span class="addontext" id="salad">salad </span>
+    <button onclick="remove('salad')" class="minus">-</button>
+    <br>
+    <br>
+    <button onclick="add('meat')" class="plus">+</button>
+    <span class="addontext" id="meat">meat </span>
+    <button onclick="remove('meat')" class="minus">-</button>
+    <br>
+    <button onclick="add('onion')" class="plus">+</button>
+    <span class="addontext" id="onion">onion </span>
+    <button onclick="remove('onion')" class="minus">-</button>
+
+    <span id="total"></span>
+    </buttons>
+   
+    <main>
+        <div class="burger">
+            <img src="imageonline-co-transparentimage.png" alt="up" id="burgerUp" class="burger">
+            <div id="container">
+            </div>
+            <img src="down.png" alt="down" id="burgerDown" class="burger">
+        </div>
+    </main>
+</all> 
+ <script src="script.js"></script>
+</body>
+
+</html>
